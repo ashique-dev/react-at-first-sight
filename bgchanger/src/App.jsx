@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.css'
-import BGChangeButton from './component/buttons/BGChangeButton.jsx'
+import BGChangeButton from './components/buttons/BGChangeButton.jsx'
 
 function App() {
   const [color, setColor] = useState("olive");
